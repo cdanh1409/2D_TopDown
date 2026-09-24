@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60367948b8a4c04b9f0aac0eda9cbaf, type: 3}
+  m_Name: CampfireBuildingData
+  m_EditorClassIdentifier: Assembly-CSharp::TopDownSurvival.Core.BuildingData
+  buildingName: Campfire
+  ghostColor: {r: 1, g: 0.6, b: 0.2, a: 0.4}
+  buildingColor: {r: 1, g: 0.5, b: 0, a: 1}
+  size: {x: 1.2, y: 1.2}
+  buildCost:
+  - item: {fileID: 11400000, guid: 8183508e909a7644aba9b6f8c9c39192, type: 2}
+    count: 3
+  - item: {fileID: 11400000, guid: 71ccbfb623f590f4f91da148874bb496, type: 2}
+    count: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faaf77d530312a74aa81830230ee6a64, type: 3}
+  m_Name: Quest_KillZombies
+  m_EditorClassIdentifier: Assembly-CSharp::TopDownSurvival.Core.QuestData
+  questId: kill_zombies
+  title: Kill Zombies
+  description: "Ti\xEAu di\u1EC7t 3 k\u1EBB th\xF9 \u0111\u1EC3 b\u1EA3o v\u1EC7
+    c\u0103n c\u1EE9!"
+  type: 2
+  targetItem: {fileID: 0}
+  enemyTag: Enemy
+  requiredAmount: 3
+  rewardExp: 200
